@@ -1,0 +1,151 @@
+article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+audio, canvas, embed, keygen, meter, progress, video {
+	display: inline-block;
+}
+
+[hidden] {
+	display: none;
+}
+
+body
+{
+	background: RGB(7,37,56);
+
+}
+
+#all
+{
+  width:1200px;
+	font-family: "Yu Gothic UI", sans-serif;
+	margin: 0 auto;
+	color:white;
+}
+
+#baner
+{
+	margin:0;
+	height: 300px;
+}
+
+#menu
+{
+  display:block;
+  width:1200px;
+  float:right;
+	border-bottom:5px solid #F39B1E;
+	font-size: 25px;
+
+}
+
+#menu a
+{
+	background-color:#1F7690;
+  color:#F39B1E;
+  text-decoration:none;
+  display:bolck;
+	text-align: center;
+	width: 235px;
+	float:left;
+	margin:5px 2.5px;
+	padding:15px 0;
+}
+
+#menu a:hover
+{
+  background-color:	#A0522D;
+  color:white;
+}
+
+#kontakt
+{
+  padding:0;
+  margin:0;
+  width:250px;
+	height:865px;
+	border-right: 5px solid #F39B1E;
+	float: left;
+	border-bottom: 5px solid #F39B1E;
+}
+
+/* #od
+{
+	margin-bottom: 60px;
+} */
+
+#kontakt a
+{
+	background-color:#1F7690;
+	color:#F39B1E;
+	font-size: 25px;
+	text-decoration:none;
+	display:bolck;
+	text-align: center;
+	width: 235px;
+	float:left;
+	margin:5px 2.5px 0 0 ;
+	padding:15px 0;
+}
+
+	#kontakt a:hover
+	{
+		background-color:	#A0522D;
+		color:white;
+	}
+
+
+#kontakt section
+{
+	margin:5px 0 0;
+	padding: 10px 10px 0;
+}
+
+article
+{
+    width:865px;
+    float:left;
+		font-size: 20px;
+		padding: 40px;
+}
+
+article h2
+{
+	float:left;
+	font-size: 30px;
+	width:865px;
+	margin:0;
+	padding:0;
+	padding-bottom: 10px;
+}
+
+#motto
+{
+	margin-top: 50px;
+	margin-bottom:0;
+	text-align: center;
+}
+
+footer
+{
+	padding: 40px;
+  width:1115px;
+  float:left;
+  font-size: 10px;
+	border-bottom: 5px solid #F39B1E;
+	border-left: 5px solid #F39B1E;
+	margin-bottom:20px;
+}
+
+footer div a
+{
+	color:white;
+	text-decoration: none;
+}
+
+footer div a:hover
+{
+	color:	#B0C4DE;
+	text-decoration: none;
+}
